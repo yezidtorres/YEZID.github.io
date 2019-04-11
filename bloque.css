@@ -1,0 +1,204 @@
+ul#menu {
+    background: rgb(255, 251, 251);
+    width: 630px;
+    float:left;
+    padding: 5px;
+    height: 20px;
+    
+    
+   }
+     
+   ul#menu li {
+    color: #fff;
+    float: left;
+    list-style: none;
+    margin: 0% 5%;
+    
+   }
+     
+   ul#menu li:hover{
+    color: #fffef7;
+    cursor:pointer;
+   }
+     
+   ul#menu ul {
+    display: none;
+    position: absolute;
+    
+    background: rgb(0, 0, 0);
+    color: #fff;
+    padding: 5px 0px 5px 5px;
+    margin: 0;
+    }
+     
+   ul#menu ul li{
+    float: left;
+    color: #fff;
+    width:80%;
+    margin:2% 0%;
+   }
+    
+    
+   ul#menu ul li a{
+    color: #fff;
+   }
+     
+   ul#menu ul li a:hover{
+    color: #ffffff;
+    cursor:pointer;
+   }
+     
+   ul#menu li:hover ul ul,ul#menu li:hover ul ul ul,ul#menu li.iehover ul ul,ul#menu li.iehover ul ul ul {
+    display: none;
+    cursor:pointer;
+   }
+     
+   ul#menu li:hover ul,ul#menu ul li:hover ul,ul#menu ul ul li:hover ul,ul#menu li.iehover ul,ul#menu ul li.iehover ul,ul#menu ul ul li.iehover ul {
+    display: block;
+    cursor:pointer;
+   }
+
+
+
+*{
+    margin: 0px;
+    padding: 0px
+}
+div#general{
+    margin: auto;
+    margin-top: 50px;
+    width: 960px;
+    height: 1000px;
+    background-color: yellow;
+}
+div#derecha{
+    float: right; 
+    width: 300px;
+    height: 500px;
+    background-color: rgb(159, 201, 240); 
+    text-align: left; 
+
+    
+ 
+    
+    
+}
+h4{
+    width: 250px;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    font-size: 15px;
+
+}
+img.alumno{
+    width: 200px;
+    height: 220;
+    margin-left: 50px;
+    align-items: center;
+}
+
+
+
+
+
+div#superior{
+     
+    width: 640px;
+    height: 200px;
+    background-color:orange ;
+}
+div#body{
+     margin-top: 20px;
+    width: 640px;
+    height: 770px;
+    background-color:rgb(110, 174, 235);
+    margin-right: 30px;
+}
+nav{ 
+    
+    
+    width: 1000px;
+    height: 30px;
+    position: relative ;
+    margin: auto;
+    align-items: center;
+    
+}
+ul{
+    position: absolute ;
+    margin: auto;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+nav ul li {
+    list-style-type:none  ;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    
+    font-size: 25px;
+    
+}
+p{
+    width: 600px;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 30px;
+
+}
+h2{
+    width: 600px;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 30px;
+
+}
+
+
+
+
+iframe{
+    margin-left: 150px;
+}
+div#banner{
+    height: 1000px;
+    width: 10 ;
+    margin-left: 150px;
+}
+
+
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+ 
+	.social ul {
+		list-style: none;
+	}
+ 
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+ 
+	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #142064;}
+	.social ul li .icon-googleplus {background: #dd3914;}
+	
+	.social ul li .icon-mail {background: #c40818;}
+ 
+	.social ul li a:hover {
+		background: rgb(238, 221, 73); /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
+
